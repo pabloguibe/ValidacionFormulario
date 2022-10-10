@@ -1,0 +1,53 @@
+Yo,Pablo Guisasola Benítez he trabajado durante 3 dias en estre proyecto sobre la creacion de un formulario validado.
+
+En mi caso,mi formulario consiste en el registro a una peluqueria tanto masculina como femenina.
+
+Mi proyecto esta estructurado por carpetas.
+
+VALIDACIONFORMULARIO (Es la carpeta padre).
+
+Dentro de esta tenemos unas carpetas y un formulario.html que es lo que vera el cliente en el navegador.
+
+Css (se encuentra el archivo de estilos)
+
+images (contiene todas las imagenes utilizadas)
+
+js (contiene el js)
+
+En el formulario.html podemos ver como tenemos un head con link al css.
+
+Luego en el body tenemos un section donde en mi caso he introducido las dos imagenes y mi cuestionario.
+
+Yo, en mi formo he trabajado con input y label para crear una especie de animacion que se puede comprobar en el navegador,esta animacion se encarga de subir el texto hacia arriba a la hora de escribir y si el campo esta vacio vuelve a bajar si no se queda arriba.
+
+Luego he creado dos tipo radio para seleccionar el sexo y un  input checkbox para aceptar los terminos.
+
+Finalmente justo antes de terminar el form he introducido un submit para enviar el formulario.
+
+Antes de enviar los datos verifico con un js los datos (Lo explico mas abajo)
+
+Por ultimo, he introducido un footer divido en 3 columnas para darle un toque mas profesional.
+
+Y por ultimo y mas inportante he introducido el enlace que lleva al js.
+
+En el js podemos ver una variable inputs donde guardo todos los input para hacer la animacion.
+
+Con una repetitiva for me encargo de verificar si los campos estan vacios para dejar arriba o no el nombre de cada campo.
+
+Luego he creado una funcion que se encargara de validar todos los datos.
+
+Primero creo todas las variables de los datos y le guardo el valor.
+
+Luego creo un par de expresiones regular muy importantes para validar los datos.
+
+Tambien creo una variable con la fecha de la persona con la minima fecha de nacimiento pero mayor de edad para poder registrarse.
+
+A continuacion, creo una estructura de if /else if para verificar campo por campo todos los datos.
+
+Luego creo una funcion para que me genere el Swift automaticamente y me lo muestre automatico en su campo correspondiente.
+
+Tambien he creado una funcion que se encarga de validad el iban (para validar el iban he necesitado 2 funciones).
+
+Para el swift he creado tambien una funcion con el mapeo de todos los codigos BIC de España.
+
+Y con todo esto he conseguido hacer un formulario validado a mi estilo.

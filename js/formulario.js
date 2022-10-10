@@ -534,12 +534,6 @@ function getBICBank( entity ) {
 
 
 
-  document.addEventListener('DOMContentLoaded', function(){
-    let formulario = document.getElementById('forml');
-    formulario.addEventListener('submit', function() {
-      formulario.reset();
-    });
-  });
 
 
   
